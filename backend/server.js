@@ -17,7 +17,7 @@ app.post('/api/chat', async (req, res) => {
 
         // Gọi API DeepSeek-V3
         const response = await axios.post(
-            'https://api.deepseek.com/v1/endpoint', // Thay bằng endpoint thực tế
+            'https://api.chat.denystran.net', // Thay bằng endpoint thực tế
             {
                 prompt: prompt,
                 max_tokens: 100
